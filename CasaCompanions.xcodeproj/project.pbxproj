@@ -14,6 +14,12 @@
 		CFEBB0312B366489001C6E48 /* CasaCompanionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB0302B366489001C6E48 /* CasaCompanionsTests.swift */; };
 		CFEBB03B2B366489001C6E48 /* CasaCompanionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB03A2B366489001C6E48 /* CasaCompanionsUITests.swift */; };
 		CFEBB03D2B366489001C6E48 /* CasaCompanionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB03C2B366489001C6E48 /* CasaCompanionsUITestsLaunchTests.swift */; };
+		CFEBB04A2B3664F2001C6E48 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB0492B3664F2001C6E48 /* ChatView.swift */; };
+		CFEBB04C2B366515001C6E48 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB04B2B366515001C6E48 /* ExpenseView.swift */; };
+		CFEBB04E2B36652D001C6E48 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB04D2B36652D001C6E48 /* TasksView.swift */; };
+		CFEBB0502B366543001C6E48 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB04F2B366543001C6E48 /* EventsView.swift */; };
+		CFEBB0522B36660A001C6E48 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB0512B36660A001C6E48 /* TasksViewModel.swift */; };
+		CFEBB0542B3668D3001C6E48 /* TaskViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB0532B3668D3001C6E48 /* TaskViewDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		CFEBB0362B366489001C6E48 /* CasaCompanionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasaCompanionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEBB03A2B366489001C6E48 /* CasaCompanionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasaCompanionsUITests.swift; sourceTree = "<group>"; };
 		CFEBB03C2B366489001C6E48 /* CasaCompanionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasaCompanionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFEBB0492B3664F2001C6E48 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		CFEBB04B2B366515001C6E48 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		CFEBB04D2B36652D001C6E48 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		CFEBB04F2B366543001C6E48 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		CFEBB0512B36660A001C6E48 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		CFEBB0532B3668D3001C6E48 /* TaskViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				CFEBB0212B366485001C6E48 /* ContentView.swift */,
 				CFEBB0232B366488001C6E48 /* Assets.xcassets */,
 				CFEBB0252B366488001C6E48 /* Preview Content */,
+				CFEBB0492B3664F2001C6E48 /* ChatView.swift */,
+				CFEBB04B2B366515001C6E48 /* ExpenseView.swift */,
+				CFEBB04D2B36652D001C6E48 /* TasksView.swift */,
+				CFEBB04F2B366543001C6E48 /* EventsView.swift */,
+				CFEBB0512B36660A001C6E48 /* TasksViewModel.swift */,
+				CFEBB0532B3668D3001C6E48 /* TaskViewDetail.swift */,
 			);
 			path = CasaCompanions;
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFEBB0542B3668D3001C6E48 /* TaskViewDetail.swift in Sources */,
 				CFEBB0222B366485001C6E48 /* ContentView.swift in Sources */,
+				CFEBB04A2B3664F2001C6E48 /* ChatView.swift in Sources */,
+				CFEBB0522B36660A001C6E48 /* TasksViewModel.swift in Sources */,
 				CFEBB0202B366485001C6E48 /* CasaCompanionsApp.swift in Sources */,
+				CFEBB04C2B366515001C6E48 /* ExpenseView.swift in Sources */,
+				CFEBB04E2B36652D001C6E48 /* TasksView.swift in Sources */,
+				CFEBB0502B366543001C6E48 /* EventsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

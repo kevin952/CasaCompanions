@@ -1,24 +1,40 @@
-//
-//  ContentView.swift
-//  CasaCompanions
-//
-//  Created by Kevin Dsouza on 12/22/23.
-//
-
+// ContentView.swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        TabView {
+            NavigationView {
+                ChatView()
+            }
+            .tabItem {
+                Image(systemName: "message")
+                Text("Chat")
+            }
 
-#Preview {
-    ContentView()
+            NavigationView {
+                ExpensesView()
+            }
+            .tabItem {
+                Image(systemName: "dollarsign.circle")
+                Text("Expenses")
+            }
+
+            NavigationView {
+                            TasksView()
+                        }
+            .tabItem {
+                Image(systemName: "list.bullet")
+                Text("Tasks")
+            }
+
+            NavigationView {
+                EventsView()
+            }
+            .tabItem {
+                Image(systemName: "calendar")
+                Text("Events")
+            }
+        }
+    }
 }

@@ -1,8 +1,8 @@
-//
-//  ExpenseView.swift
-//  CasaCompanions
-//
-//  Created by Kevin Dsouza on 12/22/23.
-//
+// ExpensesView.swift
+import SwiftUI
 
-import Foundation
+struct ExpensesView: View {
+    var body: some View {
+        Text("Expenses Feature  fjadfm- Coming Soon!")
+    }
+}

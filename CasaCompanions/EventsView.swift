@@ -1,8 +1,8 @@
-//
-//  EventsView.swift
-//  CasaCompanions
-//
-//  Created by Kevin Dsouza on 12/22/23.
-//
+// EventsView.swift
+import SwiftUI
 
-import Foundation
+struct EventsView: View {
+    var body: some View {
+        Text("Events Feature - Coming Soon!")
+    }
+}
