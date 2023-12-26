@@ -35,6 +35,13 @@ struct ContentView: View {
                 Image(systemName: "calendar")
                 Text("Events")
             }
+            NavigationView {
+                ProfileView()
+            }
+            .tabItem {
+                Image(systemName: "person.circle")
+                Text("Profile")
+            }
         }
     }
 }

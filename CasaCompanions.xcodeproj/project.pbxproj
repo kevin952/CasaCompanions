@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF08FEDD2B3B7ACE00B3F970 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF08FEDC2B3B7ACE00B3F970 /* AddTaskView.swift */; };
+		CF08FEDF2B3B7AE800B3F970 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF08FEDE2B3B7AE800B3F970 /* EditTaskView.swift */; };
+		CF08FEE12B3B7B0700B3F970 /* TaskSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF08FEE02B3B7B0600B3F970 /* TaskSectionView.swift */; };
+		CF08FEE32B3B7B2A00B3F970 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF08FEE22B3B7B2A00B3F970 /* TaskDetailView.swift */; };
+		CF08FEE52B3B7E3E00B3F970 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF08FEE42B3B7E3E00B3F970 /* ProfileView.swift */; };
 		CFEBB0202B366485001C6E48 /* CasaCompanionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB01F2B366485001C6E48 /* CasaCompanionsApp.swift */; };
 		CFEBB0222B366485001C6E48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB0212B366485001C6E48 /* ContentView.swift */; };
 		CFEBB0242B366488001C6E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEBB0232B366488001C6E48 /* Assets.xcassets */; };
@@ -19,7 +24,6 @@
 		CFEBB04E2B36652D001C6E48 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB04D2B36652D001C6E48 /* TasksView.swift */; };
 		CFEBB0502B366543001C6E48 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB04F2B366543001C6E48 /* EventsView.swift */; };
 		CFEBB0522B36660A001C6E48 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB0512B36660A001C6E48 /* TasksViewModel.swift */; };
-		CFEBB0542B3668D3001C6E48 /* TaskViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB0532B3668D3001C6E48 /* TaskViewDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF08FEDC2B3B7ACE00B3F970 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		CF08FEDE2B3B7AE800B3F970 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		CF08FEE02B3B7B0600B3F970 /* TaskSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSectionView.swift; sourceTree = "<group>"; };
+		CF08FEE22B3B7B2A00B3F970 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		CF08FEE42B3B7E3E00B3F970 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CFEBB01C2B366485001C6E48 /* CasaCompanions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasaCompanions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEBB01F2B366485001C6E48 /* CasaCompanionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasaCompanionsApp.swift; sourceTree = "<group>"; };
 		CFEBB0212B366485001C6E48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +64,6 @@
 		CFEBB04D2B36652D001C6E48 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		CFEBB04F2B366543001C6E48 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		CFEBB0512B36660A001C6E48 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
-		CFEBB0532B3668D3001C6E48 /* TaskViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +123,11 @@
 				CFEBB04D2B36652D001C6E48 /* TasksView.swift */,
 				CFEBB04F2B366543001C6E48 /* EventsView.swift */,
 				CFEBB0512B36660A001C6E48 /* TasksViewModel.swift */,
-				CFEBB0532B3668D3001C6E48 /* TaskViewDetail.swift */,
+				CF08FEDC2B3B7ACE00B3F970 /* AddTaskView.swift */,
+				CF08FEDE2B3B7AE800B3F970 /* EditTaskView.swift */,
+				CF08FEE02B3B7B0600B3F970 /* TaskSectionView.swift */,
+				CF08FEE22B3B7B2A00B3F970 /* TaskDetailView.swift */,
+				CF08FEE42B3B7E3E00B3F970 /* ProfileView.swift */,
 			);
 			path = CasaCompanions;
 			sourceTree = "<group>";
@@ -275,10 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEBB0542B3668D3001C6E48 /* TaskViewDetail.swift in Sources */,
+				CF08FEDF2B3B7AE800B3F970 /* EditTaskView.swift in Sources */,
+				CF08FEE12B3B7B0700B3F970 /* TaskSectionView.swift in Sources */,
 				CFEBB0222B366485001C6E48 /* ContentView.swift in Sources */,
+				CF08FEE32B3B7B2A00B3F970 /* TaskDetailView.swift in Sources */,
+				CF08FEE52B3B7E3E00B3F970 /* ProfileView.swift in Sources */,
 				CFEBB04A2B3664F2001C6E48 /* ChatView.swift in Sources */,
 				CFEBB0522B36660A001C6E48 /* TasksViewModel.swift in Sources */,
+				CF08FEDD2B3B7ACE00B3F970 /* AddTaskView.swift in Sources */,
 				CFEBB0202B366485001C6E48 /* CasaCompanionsApp.swift in Sources */,
 				CFEBB04C2B366515001C6E48 /* ExpenseView.swift in Sources */,
 				CFEBB04E2B36652D001C6E48 /* TasksView.swift in Sources */,
